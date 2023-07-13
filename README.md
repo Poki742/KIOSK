@@ -1,9 +1,58 @@
 # KIOSK
+## 만든 언어
+Java-Eclipse<br>
 
+## 첫번쨰
+아래 사진은 javafx으로 만든 성일 카페 창 입니다.<br>
+주문도 환영입니다^^7<br>
 ![image](https://github.com/Poki742/KIOSK/assets/126844692/6edd233c-9583-4766-8e23-ce17512adb53)<br>
+## 성일 카페
+
+### 설명
+아래 코드는 JavaFX를 사용하여 GUI 애플리케이션을 개발하고, Sample.fxml 파일을 사용하여 주 창의 내용을 정의하며,<br>
+application.css 파일을 사용하여 스타일을 적용합니다.<br>
+애플리케이션 실행 시 start 메서드가 호출되어 주 창을 생성하고 화면에 표시됩니다.<br>
+
+### 코드
+``` java
+package application;
+	
+import javafx.application.Application;
+import javafx.stage.Stage;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.fxml.FXMLLoader;
 
 
-## AdminloginController java
+public class Main extends Application {
+	@Override
+	public void start(Stage primaryStage) {
+		try {
+			Parent root = FXMLLoader.load(getClass().getResource("Sample.fxml"));
+			Scene scene = new Scene(root);
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			primaryStage.setScene(scene);
+			primaryStage.setTitle("성일CAFE - 5월");
+			primaryStage.show();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+}
+```
+
+## 로그인
+
+### 설명
+아래 코드는 JavaFX 적용에서 관리자 로그인 화면을 담당하는 컨트롤러 클래스입니다.<br>
+이 클래스는 FXML 파일과 연결되어 UI 요소와 사용자가 입력을 처리하고 데이터베이스 연결을 수행하며<br>
+다른 화면으로 이동을 관리합니다.<br>
+
+### 코드
 ``` java
 package application;
 
@@ -107,10 +156,17 @@ public class AdminloginController {
 	
 }
 ```
-위의 코드는 JavaFX 적용에서 관리자 로그인 화면을 담당하는 컨트롤러 클래스입니다.<br>
-이 클래스는 FXML 파일과 연결되어 UI 요소와 사용자가 입력을 처리하고 데이터베이스 연결을 수행하며<br>
-다른 화면으로 이동을 관리합니다.<br>
-## AdmindbController java
+## 두번쨰
+아래 사진은 관리자들만 들어갈 수 있는 관리자 DB 조회 창 입니다.
+![image](https://github.com/Poki742/KIOSK/assets/126844692/a936b78c-c21e-42b1-8e65-ddb097424af8)
+
+## 관리자 DB 조회
+
+### 설명
+아래 코드는 주문 데이터를 조회하고 통계를 생성하는 기능을 가진 GUI 애플리케이션의 컨트롤러 클래스입니다.<br>
+UI 요소들과 데이터베이스 연동, 그래프 생성 등의 동작을 수행하며, FXML 파일과 상호작용하여 사용자 인터페이스를 구성합니다.<br>
+
+### 코드
 ``` java
 
 package application;
