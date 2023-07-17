@@ -278,7 +278,7 @@ public class AdmindbController implements Initializable {
 admin_table을 생성해 ID와 PW를 만든다.<br><br>
 
 ![image](https://github.com/Poki742/KIOSK/assets/126844692/191cd881-d1b1-437f-830c-7cbd10b9dfb6)<br>
-위의 SQL 문은 "admin_table"이라는 테이블에 "idx"라는 열을 추가하고, 이 열을 기본 키로 설정하는 범위를 추가하는 것을 의미한다.<br><br>
+위의 SQL 문은 admin_table 이라는 테이블에 idx 라는 열을 추가하고, 이 열을 기본 키로 설정한다.<br><br>
 
 ![image](https://github.com/Poki742/KIOSK/assets/126844692/0d42aede-cec1-49cb-afe7-5f42237f4fc4)<br>
 시퀀스를 생성한다.<br><br>
@@ -288,3 +288,13 @@ admin_table을 생성해 ID와 PW를 만든다.<br><br>
 
 ![image](https://github.com/Poki742/KIOSK/assets/126844692/1660d304-9e6b-41c3-ac77-07ad02147763)<br>
 user_table를 만들어 idx, 유저이름, 유저 아이디, 유저 비번, 학년, 반, 번호를 만든다.<br><br>
+
+![image](https://github.com/Poki742/KIOSK/assets/126844692/04672d90-78b9-43f9-a506-ed47ea38cb07)<br>
+위의 SQL 문은 user_table의 idx 라는 열을 추가하고, 기본 키로 설정한다.<br><br>
+
+![image](https://github.com/Poki742/KIOSK/assets/126844692/d077ff61-e2ca-4930-875c-bb0537b72b3f)<br>
+시퀀스를 생성한다.<br><br>
+
+![image](https://github.com/Poki742/KIOSK/assets/126844692/401ded6a-876d-4de3-8eb2-cd9546eee2c0)<br>
+user_table의 열의 리스트에다가 열에 데이터를 삽입한다.<br><br>
+
