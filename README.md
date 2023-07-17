@@ -273,3 +273,18 @@ public class AdmindbController implements Initializable {
 }
 
 ```
+## 디비
+![image](https://github.com/Poki742/KIOSK/assets/126844692/227a99e9-cf74-4897-b450-2ec2db57c2f3)<br>
+admin_table을 생성해 ID와 PW를 만든다.<br><br>
+
+![image](https://github.com/Poki742/KIOSK/assets/126844692/191cd881-d1b1-437f-830c-7cbd10b9dfb6)<br>
+위의 SQL 문은 "admin_table"이라는 테이블에 "idx"라는 열을 추가하고, 이 열을 기본 키로 설정하는 범위를 추가하는 것을 의미한다.<br><br>
+
+![image](https://github.com/Poki742/KIOSK/assets/126844692/0d42aede-cec1-49cb-afe7-5f42237f4fc4)<br>
+시퀀스를 생성한다.<br><br>
+
+![image](https://github.com/Poki742/KIOSK/assets/126844692/1f6c275d-44c5-4849-98e6-6866c5fb2a5a)<br>
+위의 SQL 문은 admin_table 이라는 테이블에 새로운 데이터를 삽입하는 것을 의미한다.<br><br>
+
+![image](https://github.com/Poki742/KIOSK/assets/126844692/1660d304-9e6b-41c3-ac77-07ad02147763)<br>
+user_table를 만들어 idx, 유저이름, 유저 아이디, 유저 비번, 학년, 반, 번호를 만든다.<br><br>
