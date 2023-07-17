@@ -2,7 +2,7 @@
 ## 만든 언어
 Java-Eclipse<br>
 
-## 첫번쨰
+## 첫번째
 아래 사진은 javafx으로 만든 성일 카페 창 입니다.<br>
 주문도 환영입니다^^7<br>
 ![image](https://github.com/Poki742/KIOSK/assets/126844692/6edd233c-9583-4766-8e23-ce17512adb53)<br>
@@ -44,8 +44,12 @@ public class Main extends Application {
 	}
 }
 ```
+## 실행결과
+![image](https://github.com/Poki742/KIOSK/assets/126844692/44c6588f-5841-4214-87cf-821cbeba12f2)<br>
 
 ## 로그인
+아래있는 사진은 로그인 창 입니다.<br>
+![image](https://github.com/Poki742/KIOSK/assets/126844692/9a76d8c7-5124-4585-8960-e3a1c870793b)<br>
 
 ### 설명
 아래 코드는 JavaFX 적용에서 관리자 로그인 화면을 담당하는 컨트롤러 클래스입니다.<br>
@@ -156,7 +160,11 @@ public class AdminloginController {
 	
 }
 ```
-## 두번쨰
+## 실행결과
+![image](https://github.com/Poki742/KIOSK/assets/126844692/54092d13-4bb2-490e-9da3-907fbf96173e)<br>
+
+
+## 두번째
 아래 사진은 관리자들만 들어갈 수 있는 관리자 DB 조회 창 입니다.
 ![image](https://github.com/Poki742/KIOSK/assets/126844692/a936b78c-c21e-42b1-8e65-ddb097424af8)
 
@@ -273,6 +281,9 @@ public class AdmindbController implements Initializable {
 }
 
 ```
+## 실행결과
+![image](https://github.com/Poki742/KIOSK/assets/126844692/373c820a-38d0-400d-8043-42e9b784f794)<br>
+
 ## 디비
 ![image](https://github.com/Poki742/KIOSK/assets/126844692/227a99e9-cf74-4897-b450-2ec2db57c2f3)<br>
 admin_table을 생성해 ID와 PW를 만든다.<br><br>
